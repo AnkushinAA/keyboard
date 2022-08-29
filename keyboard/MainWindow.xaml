@@ -1,0 +1,224 @@
+﻿<Window x:Class="keyboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:keyboard"
+        mc:Ignorable="d"
+        Title="Электронная клавиатура" Height="300" Width="1200" FontSize="25"      
+        WindowStartupLocation="CenterScreen"       
+        ResizeMode="CanResizeWithGrip"
+        Background="#4188D2">
+    <Window.Resources>
+        <ResourceDictionary Source="Styles.xaml"/>
+    </Window.Resources>
+
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="4*"/>            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>        
+            <Grid Grid.Row="0" Margin="0 0 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1.5*"/>                    
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">ESC</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">Ё</Button>
+            <Button Grid.Column="2" Style="{StaticResource Button}">1</Button>
+            <Button Grid.Column="3" Style="{StaticResource Button}">2</Button>
+            <Button Grid.Column="4" Style="{StaticResource Button}">3</Button>
+            <Button Grid.Column="5" Style="{StaticResource Button}">4</Button>
+            <Button Grid.Column="6" Style="{StaticResource Button}">5</Button>
+            <Button Grid.Column="7" Style="{StaticResource Button}">6</Button>
+            <Button Grid.Column="8" Style="{StaticResource Button}">7</Button>
+            <Button Grid.Column="9" Style="{StaticResource Button}">8</Button>
+            <Button Grid.Column="10" Style="{StaticResource Button}">9</Button>
+            <Button Grid.Column="11" Style="{StaticResource Button}">0</Button>
+            <Button Grid.Column="12" Style="{StaticResource Button}">-</Button>
+            <Button Grid.Column="13" Style="{StaticResource Button}">=</Button>
+            <Button Grid.Column="14" Style="{StaticResource Button}">Bksp</Button>
+        </Grid>
+        <Grid Grid.Row="1" Margin="0 0 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Tab</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">й</Button>
+            <Button Grid.Column="2" Style="{StaticResource Button}">ц</Button>
+            <Button Grid.Column="3" Style="{StaticResource Button}">у</Button>
+            <Button Grid.Column="4" Style="{StaticResource Button}">к</Button>
+            <Button Grid.Column="5" Style="{StaticResource Button}">е</Button>
+            <Button Grid.Column="6" Style="{StaticResource Button}">н</Button>
+            <Button Grid.Column="7" Style="{StaticResource Button}">г</Button>
+            <Button Grid.Column="8" Style="{StaticResource Button}">ш</Button>
+            <Button Grid.Column="9" Style="{StaticResource Button}">щ</Button>
+            <Button Grid.Column="10" Style="{StaticResource Button}">з</Button>
+            <Button Grid.Column="11" Style="{StaticResource Button}">х</Button>
+            <Button Grid.Column="12" Style="{StaticResource Button}">ъ</Button>
+            <Button Grid.Column="13" Style="{StaticResource Button}">\</Button>
+            <Button Grid.Column="14" Style="{StaticResource Button}">Del</Button>                
+            </Grid>
+        <Grid Grid.Row="2" Margin="0 0 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2.5*"/>                    
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Caps</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">ф</Button>
+            <Button Grid.Column="2" Style="{StaticResource Button}">ы</Button>
+            <Button Grid.Column="3" Style="{StaticResource Button}">в</Button>
+            <Button Grid.Column="4" Style="{StaticResource Button}">а</Button>
+            <Button Grid.Column="5" Style="{StaticResource Button}">п</Button>
+            <Button Grid.Column="6" Style="{StaticResource Button}">р</Button>
+            <Button Grid.Column="7" Style="{StaticResource Button}">о</Button>
+            <Button Grid.Column="8" Style="{StaticResource Button}">л</Button>
+            <Button Grid.Column="9" Style="{StaticResource Button}">д</Button>
+            <Button Grid.Column="10" Style="{StaticResource Button}">ж</Button>
+            <Button Grid.Column="11" Style="{StaticResource Button}">э</Button>
+            <Button Grid.Column="12" Style="{StaticResource Button}">Enter</Button>                
+            </Grid>
+        <Grid Grid.Row="3" Margin="0 0 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Shift</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">я</Button>
+            <Button Grid.Column="2" Style="{StaticResource Button}">ч</Button>
+            <Button Grid.Column="3" Style="{StaticResource Button}">с</Button>
+            <Button Grid.Column="4" Style="{StaticResource Button}">м</Button>
+            <Button Grid.Column="5" Style="{StaticResource Button}">и</Button>
+            <Button Grid.Column="6" Style="{StaticResource Button}">т</Button>
+            <Button Grid.Column="7" Style="{StaticResource Button}">ь</Button>
+            <Button Grid.Column="8" Style="{StaticResource Button}">б</Button>
+            <Button Grid.Column="9" Style="{StaticResource Button}">ю</Button>
+            <Button Grid.Column="10" Style="{StaticResource Button}">.</Button>
+            <Button Grid.Column="11" Style="{StaticResource Button}">^</Button>
+            <Button Grid.Column="12" Style="{StaticResource Button}">Shift</Button>
+            </Grid>
+        <Grid Grid.Row="4" Margin="0 0 5 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>                    
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Ctrl</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">win</Button>
+            <Button Grid.Column="2" Style="{StaticResource Button}">Alt</Button>
+            <Button Grid.Column="3" Style="{StaticResource Button}"></Button>
+            <Button Grid.Column="4" Style="{StaticResource Button}">Alt</Button>
+            <Button Grid.Column="5" Style="{StaticResource Button}"></Button>
+            <Button Grid.Column="6" Style="{StaticResource Button}">Ctrl</Button>
+            <Button Grid.Column="7" Style="{StaticResource Button}"></Button>
+            <Button Grid.Column="8" Style="{StaticResource Button}">v</Button>
+            <Button Grid.Column="9" Style="{StaticResource Button}"></Button>
+            <Button Grid.Column="10" Style="{StaticResource Button}">Fn</Button>                
+            </Grid>        
+            <Grid Grid.Column="1" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Home</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">PgUp</Button>
+            </Grid>
+        <Grid Grid.Column="1" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">End</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">PgUDn</Button>
+            </Grid>
+        <Grid Grid.Column="1" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Insert</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">Pause</Button>
+            </Grid>
+        <Grid Grid.Column="1" Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">PrtScr</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">ScLk</Button>
+            </Grid>
+        <Grid Grid.Column="1" Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Style="{StaticResource Button}">Параметры</Button>
+            <Button Grid.Column="1" Style="{StaticResource Button}">Справка</Button>
+            </Grid>       
+    </Grid>
+   
+</Window>
